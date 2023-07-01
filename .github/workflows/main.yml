@@ -43,7 +43,7 @@ jobs:
           build-args: |
             VERSION=${{ env.RELEASE_VERSION }}
           tags: |
-            moriony/syncthing-relay:latest
-            moriony/syncthing-relay:${{ env.RELEASE_VERSION }}
-            ghcr.io/moriony/syncthing-relay:latest
-            ghcr.io/moriony/syncthing-relay:${{ env.RELEASE_VERSION }}
+            moriony/syncthing-relaysrv:latest
+            moriony/syncthing-relaysrv:${{ env.RELEASE_VERSION }}
+            ghcr.io/moriony/syncthing-relaysrv:latest
+            ghcr.io/moriony/syncthing-relaysrv:${{ env.RELEASE_VERSION }}
